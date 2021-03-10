@@ -113,5 +113,5 @@ message.channel.send ("فەرموو برام💜")
 
 /////لێرە تۆکین دانێ 					
   
-client.login("NzE2Nzg3NjE3NTYzMTQ4MzM4.YEj57g.Jbt2XPGs0CrdQ2BUXgMRhHu7dqA")
+client.login("NzE2Nzg3NjE3NTYzMTQ4MzM4.YEkATw.F3-2IGrqih_XFXFZDI1AfL1zQ-8")
 /////تکایە هیچ کەسێک دەسکاری ئێرە نەکا ڕیمێکسی بکەن ئەوجا
