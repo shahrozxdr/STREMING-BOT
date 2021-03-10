@@ -9,7 +9,7 @@ const ownerID = ''
   console.log(
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
-  let statuses =  ['ZERO E Bram Up','YAXI E bram Up','DEV MR ERROR'] ////←←←←لێرە شتەکان بنوسە
+  let statuses =  ['','','','','',''] ////←←←←لێرە شتەکان بنوسە
   
   setInterval(function() {
     let playing = statuses[Math.floor(Math.random() * statuses.length)];
@@ -112,6 +112,5 @@ message.channel.send ("ببورە بۆ کاری بۆت و پڕۆجێکت بەچ�
 
 /////لێرە تۆکین دانێ 					
   
-client.login("ODAwNzAxNzMzMTUxNTcxOTc4.YAV-sQ.7_IeUpE4Y9pX-a1BnibhDi_ac-c")
-
+client.login("")
 /////تکایە هیچ کەسێک دەسکاری ئێرە نەکا ڕیمێکسی بکەن ئەوجا
