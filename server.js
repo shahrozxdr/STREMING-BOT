@@ -2,14 +2,15 @@
 /////تکایە ئەم پڕۆجێکتە ڕیمێکس بکەن
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix  ='.'
-const ownerID = ''
+const prefix  ='!'
+const ownerID = '716787617563148338'
 
      client.on("ready", () => {
   console.log(
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
-  let statuses =  ['','','','','',''] ////←←←←لێرە شتەکان بنوسە
+  let statuses =  ['باپیرەگەورەی دیڤلۆپەرەکان','🅱🅷 | 🆄🅿','🅶🅾🅾🅳-🆂🅴🆁🆅🅴🆁 | 🆄🅿
+','🅰🅼🅾🆉🅰 | 🆄🅿','🆈🅰🆂🅷🅴🆇🅰🅺🅰🅼 | 🆄🅿','🆇🅾🆂🅷🅼 | 🆄🅿'] ////←←←←لێرە شتەکان بنوسە
   
   setInterval(function() {
     let playing = statuses[Math.floor(Math.random() * statuses.length)];
@@ -100,10 +101,10 @@ message.channel.send(`https://cdn.discordapp.com/attachments/754625274200588368/
 break;
  
 
-case "<@633755815773208611>"://///لێرە ئایدی ئەکاونتت دانێ
+case "<@716787617563148338>"://///لێرە ئایدی ئەکاونتت دانێ
         
       
-message.channel.send ("ببورە بۆ کاری بۆت و پڕۆجێکت بەچات جواب نادەمەوە بەس لەڤۆیس👍")
+message.channel.send ("فەرموو برام💜")
 
 }
 });
@@ -112,5 +113,5 @@ message.channel.send ("ببورە بۆ کاری بۆت و پڕۆجێکت بەچ�
 
 /////لێرە تۆکین دانێ 					
   
-client.login("")
+client.login("NzE2Nzg3NjE3NTYzMTQ4MzM4.YEj57g.Jbt2XPGs0CrdQ2BUXgMRhHu7dqA")
 /////تکایە هیچ کەسێک دەسکاری ئێرە نەکا ڕیمێکسی بکەن ئەوجا
