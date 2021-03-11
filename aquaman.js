@@ -9,7 +9,7 @@ const ownerID = 'ایدی خۆت'
   console.log(
     `Online In Servers : ${client.guilds.size} | Users : ${client.users.size}`
   );
-  let statuses =  [',','',',',',',',',',',','] ////←←←←لێرە شتەکان بنوسە
+  let statuses =  [',',',',',',',',',',',',','] ////←←←←لێرە شتەکان بنوسە
   
   setInterval(function() {
     let playing = statuses[Math.floor(Math.random() * statuses.length)];
